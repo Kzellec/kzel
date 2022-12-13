@@ -1,0 +1,30 @@
+@media only screen and (max-width : 1200px) {
+}
+
+@media only screen and (max-width : 1025px) {
+	/* Hero */
+	#hero { background-attachment: fixed; }
+}
+
+@media only screen and (max-width : 992px) {
+	/* Layout */
+	#main { margin-top: 30px; }
+
+	/* Header */
+	#header .logo { font-size: 28px; }
+
+	/* Mobile Navigation */
+	.mobile-nav-toggle { display: block; }
+	.navbar ul { display: none; }
+
+	/* Hero */
+	#hero:before { content: ""; background: rgba(255, 255, 255, 0.8); position: absolute; bottom: 0; top: 0; left: 0; right: 0; }
+	#hero h1 { font-size: 28px; line-height: 36px; }
+	#hero h2 { font-size: 18px; line-height: 24px; }
+}
+
+@media only screen and (max-width : 576px) {
+}
+
+@media only screen and (max-width : 480px) {
+}
